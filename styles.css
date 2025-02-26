@@ -456,7 +456,7 @@ footer{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 200px;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -590,6 +590,7 @@ footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 80px;
     }
 
     .footer-social, .footer-links, .footer-address {
@@ -689,16 +690,9 @@ footer{
         cursor: pointer;
         color: var(--primary-color);
     }
-
+    .footer-container {
+        gap: 21px;
+    }
 }
 
 
-.footer-container {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-}
