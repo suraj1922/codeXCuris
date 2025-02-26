@@ -458,6 +458,12 @@ body, ul {
             padding: 10px 20px;
         }
     }
+    @media (max-width: 250px) {
+        .contact-bar{
+            font-size: 8px;
+        }
+    }
+
 
 /*FOOTER SECTION */
 
