@@ -607,6 +607,10 @@ footer{
     padding: 10px 0;
     font-size: 12px;
 }
+.footer-address a{
+    color: white;
+    text-decoration: none; 
+}
 
 
 @media (max-width: 768px) {
