@@ -90,6 +90,12 @@ body, ul {
     align-items: center;
     gap: 5px;
 }
+/* .nav-link:hover{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--bg-white);
+    padding: 5px 10px;
+} */
 
 
 
