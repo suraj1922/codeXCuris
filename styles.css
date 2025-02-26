@@ -25,7 +25,6 @@ body, ul {
 
 .container-box{
     max-width: 1280px;
-    
 }
 
 .contact-bar {
@@ -120,7 +119,7 @@ body, ul {
 
     /*MAIN SECTION STARTS HERE*/
     .main-content {
-        padding: 40px 0;
+        padding: 35px 0;
         color: var(--text-color);
     }
 
@@ -411,6 +410,11 @@ body, ul {
         .container {
             flex-direction: column;
         }
+        .contact-bar {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+        }
     
         .doctor-profile {
             flex-direction: column;
@@ -431,6 +435,7 @@ body, ul {
         .faq-box {
             margin: 30px;
         }
+        
     }
 
     @media (min-width: 769px) {
@@ -441,13 +446,20 @@ body, ul {
             height: fit-content;
         }
     }
+
+    @media (max-width: 380px) {
+        .contact-bar{
+            padding: 10px 20px;
+        }
+    }
+
 /*FOOTER SECTION */
 
 footer{
     background: var(--footer-bg);
     padding: 40px 20px;
     border-top: 1px solid var(--light-bg);
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -603,9 +615,7 @@ footer{
     .doctor-profile-box {
         position: static;
     }
-    .contact-bar { 
-        padding: 10px 40px; 
-    }
+
     .footer-logo img {
         width: 250px;
         height: 60px;
