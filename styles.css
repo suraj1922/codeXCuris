@@ -147,7 +147,7 @@ body, ul {
 
     .doctor-profile-box {
         background: var(--white);
-        padding: 30px;
+        padding: 20px;
         border-radius: 10px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
@@ -184,6 +184,7 @@ body, ul {
 
     .fees {
         font-size: 18px;
+        margin:4px
     }
 
     .experience-badge {
@@ -217,7 +218,7 @@ body, ul {
     }
 
     .medical-registration {
-        padding: 10px 30px;
+        padding: 10px 20px;
         font-size: 14px;
         font-weight: bold;
         display: flex;
@@ -230,7 +231,9 @@ body, ul {
 
     .btn-primary {
         background: var(--primary-color);
-        color: var(--white);
+        color: var(--bg-white);
+        display: flex;
+        align-items: center;
     }
 
     .btn-primary:hover {
@@ -239,7 +242,7 @@ body, ul {
 
     .btn-whatsapp {
         background: var(--whatsapp-color);
-        color: var(--white);
+        color: var(--bg-white);
     }
 
     .btn-whatsapp:hover {
