@@ -353,7 +353,7 @@ body, ul {
     
     .faq-box h2 {
         font-size: 1.5rem;
-        color: var(--black-color);
+        color: var(--primary-color);
         margin-bottom: 20px;
         text-align: center;
     }
