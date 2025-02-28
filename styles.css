@@ -17,6 +17,7 @@ body, ul {
     --text-color: #333;
     --light-bg: #eeeeee;
     --footer-bg: #2a4a66;
+    --black:var(--black-color);
 }
 
 .header-container{
@@ -349,8 +350,9 @@ body, ul {
     
     .faq-box h2 {
         font-size: 1.5rem;
-        color: var(--primary-color);
+        color: var(--black-color);
         margin-bottom: 20px;
+        text-align: center;
     }
     
     .faq-list {
@@ -598,6 +600,7 @@ footer{
 }
 .footer-address li{
     color: var(--bg-white);
+    text-align: left;
 }
 
 .footer-address ul {
