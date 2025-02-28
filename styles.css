@@ -309,7 +309,7 @@ body, ul {
 
     .info-box {
         background: var(--white);
-        padding: 30px;
+        padding: 20px;
         border-radius: 10px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         margin-bottom: 30px;
@@ -398,6 +398,13 @@ body, ul {
     .faq-item.active .faq-question i {
         transform: rotate(180deg);
     }
+
+    @media (max-width: 488px){
+        .contact-bar{
+
+            padding: 10px 20px;
+        }
+    }
     
     @media (max-width: 768px) {
         .faq-item {
@@ -418,6 +425,7 @@ body, ul {
     @media (max-width: 768px) {
         .container {
             flex-direction: column;
+            gap: 5px;
         }
         .contact-bar {
             display: flex;
