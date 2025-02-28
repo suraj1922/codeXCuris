@@ -370,7 +370,7 @@ body, ul {
     }
     
     .faq-question {
-        color: var(--primary-color);
+        color: var(--black-color);
         margin-bottom: 0;
         font-size: 16px;
         display: flex;
@@ -601,6 +601,8 @@ footer{
 .footer-address li{
     color: var(--bg-white);
     text-align: left;
+    display: flex !important;
+    align-items: start !important;
 }
 
 .footer-address ul {
