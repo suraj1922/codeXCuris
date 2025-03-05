@@ -9,18 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Dr. Bharati Chaugule - Gynecologist | Curis Life</title>
     <style>
+        body,
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: Arial, sans-serif;
+        }
+
+
         :root {
             --primary-color: #08f;
-            /* Blue for primary elements */
+            --bg-gray: #f0f0f0;
+            --bg-white: #fff;
+            --hover-color: #034993;
+            --content-padding: 5%;
+            --black-color: #000;
             --whatsapp-color: #25d366;
-            /* WhatsApp green */
             --text-color: #333;
-            /* Main text color */
             --light-bg: #eeeeee;
-            /* Light background */
-            --white: #ffffff;
-            /* White background */
+            --footer-bg: #2a4a66;
+            --black: var(--black-color);
         }
+
 
         .main-content {
             padding: 40px 0;
@@ -396,149 +407,150 @@
                 height: fit-content;
             }
         }
+
         .footer-address {
-    flex: 1;
-    min-width: 200px;
-}
+            flex: 1;
+            min-width: 200px;
+        }
 
-.footer-address h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: var(--bg-white);
-}
+        .footer-address h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: var(--bg-white);
+        }
 
-.footer-address p {
-    margin: 5px 0;
-    color: var(--bg-white);
-    font-size: 16px;
-}
+        .footer-address p {
+            margin: 5px 0;
+            color: var(--bg-white);
+            font-size: 16px;
+        }
 
-footer {
-    background: var(--footer-bg);
-    padding: 40px 20px;
-    border-top: 1px solid var(--light-bg);
-    margin-top: 60px;
-}
+        footer {
+            background: var(--footer-bg);
+            padding: 40px 20px;
+            border-top: 1px solid var(--light-bg);
+            margin-top: 60px;
+        }
 
-.footer-container {
-    max-width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    flex-wrap: wrap;
-}
+        .footer-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
 
-.footer-logo {
-    flex: 1;
-    min-width: 200px;
-}
+        .footer-logo {
+            flex: 1;
+            min-width: 200px;
+        }
 
-.footer-logo img {
-    max-width: 200px;
-    height: auto;
-}
+        .footer-logo img {
+            max-width: 200px;
+            height: auto;
+        }
 
-.footer-links {
-    flex: 1;
-    min-width: 200px;
-}
+        .footer-links {
+            flex: 1;
+            min-width: 200px;
+        }
 
-.footer-links h3,
-.footer-address h3,
-.footer-social h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: var(--bg-white);
-}
+        .footer-links h3,
+        .footer-address h3,
+        .footer-social h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: var(--bg-white);
+        }
 
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-}
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
 
-.footer-links ul li {
-    margin-bottom: 10px;
-}
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
 
-.footer-links ul li a {
-    color: var(--bg-white);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
+        .footer-links ul li a {
+            color: var(--bg-white);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-.footer-links ul li a:hover {
-    color: var(--primary-color);
-}
+        .footer-links ul li a:hover {
+            color: var(--primary-color);
+        }
 
-.footer-address {
-    flex: 1;
-    min-width: 200px;
-}
+        .footer-address {
+            flex: 1;
+            min-width: 200px;
+        }
 
-.footer-address p {
-    margin: 5px 0;
-    color: var(--bg-white);
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+        .footer-address p {
+            margin: 5px 0;
+            color: var(--bg-white);
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-.footer-address i {
-    font-size: 18px;
-    color: var(--primary-color);
-}
+        .footer-address i {
+            font-size: 18px;
+            color: var(--primary-color);
+        }
 
-.footer-social {
-    flex: 1;
-    min-width: 200px;
-}
+        .footer-social {
+            flex: 1;
+            min-width: 200px;
+        }
 
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
 
-.social-icons a {
-    color: var(--bg-white);
-    font-size: 20px;
-    transition: color 0.3s ease;
-}
+        .social-icons a {
+            color: var(--bg-white);
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
 
-.social-icons a:hover {
-    color: var(--primary-color);
-}
+        .social-icons a:hover {
+            color: var(--primary-color);
+        }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
 
-    .footer-logo,
-    .footer-links,
-    .footer-address,
-    .footer-social {
-        text-align: center;
-        margin-bottom: 20px;
-    }
+            .footer-logo,
+            .footer-links,
+            .footer-address,
+            .footer-social {
+                text-align: center;
+                margin-bottom: 20px;
+            }
 
-    .footer-logo img {
-        margin-bottom: 20px;
-    }
+            .footer-logo img {
+                margin-bottom: 20px;
+            }
 
-    .footer-address p {
-        justify-content: center;
-    }
+            .footer-address p {
+                justify-content: center;
+            }
 
-    .social-icons {
-        justify-content: center;
-    }
-}
+            .social-icons {
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 
@@ -673,28 +685,44 @@ footer {
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
                 <div class="faq-item">
-                    <h3 class="faq-question">What are common symptoms requiring gynecologist visit? <i class="fas fa-chevron-down"></i></h3>
-                    <p class="faq-answer">Irregular periods, severe cramps, unusual discharge, pelvic pain, abnormal bleeding, infertility concerns, or menopause-related issues.</p>
+                    <h3 class="faq-question">What are common symptoms requiring gynecologist visit? <i
+                            class="fas fa-chevron-down"></i></h3>
+                    <p class="faq-answer">Irregular periods, severe cramps, unusual discharge, pelvic pain, abnormal
+                        bleeding, infertility concerns, or menopause-related issues.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">How can I improve my chances of getting pregnant naturally? <i class="fas fa-chevron-down"></i></h3>
-                    <p class="faq-answer">Maintain a healthy lifestyle, eat a balanced diet, exercise regularly, track ovulation, and manage stress. Consult a gynecologist if you have been trying for over a year.</p>
+                    <h3 class="faq-question">How can I improve my chances of getting pregnant naturally? <i
+                            class="fas fa-chevron-down"></i></h3>
+                    <p class="faq-answer">Maintain a healthy lifestyle, eat a balanced diet, exercise regularly, track
+                        ovulation, and manage stress. Consult a gynecologist if you have been trying for over a year.
+                    </p>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">What should I expect during my first gynecologist visit? <i class="fas fa-chevron-down"></i></h3>
-                    <p class="faq-answer">Your first visit may include a detailed medical history review, a physical examination, discussion about menstrual cycles, birth control options, and any concerns you may have regarding reproductive health. A Pap smear or pelvic ultrasound may be recommended if necessary.</p>
+                    <h3 class="faq-question">What should I expect during my first gynecologist visit? <i
+                            class="fas fa-chevron-down"></i></h3>
+                    <p class="faq-answer">Your first visit may include a detailed medical history review, a physical
+                        examination, discussion about menstrual cycles, birth control options, and any concerns you may
+                        have regarding reproductive health. A Pap smear or pelvic ultrasound may be recommended if
+                        necessary.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">What lifestyle changes can help manage PCOS (Polycystic Ovary Syndrome)? <i class="fas fa-chevron-down"></i></h3>
-                    <p class="faq-answer">PCOS can be managed through weight management, a healthy diet (low in processed sugars), regular exercise, and hormonal therapy if needed. Your gynecologist may also recommend medications to regulate periods and control symptoms.</p>
+                    <h3 class="faq-question">What lifestyle changes can help manage PCOS (Polycystic Ovary Syndrome)? <i
+                            class="fas fa-chevron-down"></i></h3>
+                    <p class="faq-answer">PCOS can be managed through weight management, a healthy diet (low in
+                        processed sugars), regular exercise, and hormonal therapy if needed. Your gynecologist may also
+                        recommend medications to regulate periods and control symptoms.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">How do I know if I’m going through menopause? <i class="fas fa-chevron-down"></i></h3>
-                    <p class="faq-answer">Menopause typically occurs between 45-55 years and is marked by symptoms like hot flashes, night sweats, mood swings, vaginal dryness, and irregular periods. A gynecologist can help manage symptoms with hormone therapy, lifestyle adjustments, and nutritional guidance.</p>
+                    <h3 class="faq-question">How do I know if I’m going through menopause? <i
+                            class="fas fa-chevron-down"></i></h3>
+                    <p class="faq-answer">Menopause typically occurs between 45-55 years and is marked by symptoms like
+                        hot flashes, night sweats, mood swings, vaginal dryness, and irregular periods. A gynecologist
+                        can help manage symptoms with hormone therapy, lifestyle adjustments, and nutritional guidance.
+                    </p>
                 </div>
             </div>
         </section>
-        
+
     </main>
 
     <footer>
@@ -728,9 +756,11 @@ footer {
                 <!-- Address -->
                 <div class="footer-address">
                     <h3>Address</h3>
-                    <p><i class="fas fa-building"></i> 201, Shri Krishna Complex, Opposite Yash Raj Films Studio, Near Balaji Telefilms, New Link Rd, Andheri West, Mumbai, Maharashtra 400053</p>
+                    <p><i class="fas fa-building"></i> 201, Shri Krishna Complex, Opposite Yash Raj Films Studio, Near
+                        Balaji Telefilms, New Link Rd, Andheri West, Mumbai, Maharashtra 400053</p>
                     <p><i class="fas fa-phone"></i> +91 99870 46376</p>
-                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Healxhub@gmail.com">pareshdoshi@curislife.com</a></p>
+                    <p><i class="fas fa-envelope"></i> Email: <a
+                            href="mailto:Healxhub@gmail.com">pareshdoshi@curislife.com</a></p>
                 </div>
             </div>
 

@@ -288,8 +288,12 @@ body, ul {
         font-size: 18px;
         color: var(--primary-color);
     }
-    .toggle-content p{
-        font-size: 14px;
+    .toggle-content p {
+        font-size: 16px;
+    }
+    .toggle-content li{
+        font-size: 16px;
+        margin-bottom: 9px;
     }
 
     .toggle-btn.active {
@@ -307,6 +311,7 @@ body, ul {
         display: block;
     }
 
+
     .info-section {
         margin-bottom: 40px;
     }
@@ -323,7 +328,10 @@ body, ul {
         color: var(--primary-color);
         margin-bottom: 20px;
         font-size: 18px;
-        font-weight: 600
+        font-weight: 6  00
+    }
+    .info-box h3{
+        font-size: 16px;
     }
 
     .services-list {
@@ -331,6 +339,10 @@ body, ul {
         list-style-type: none;
         padding: 0;
     }
+    .services-list-sub{
+        columns: 1; 
+    }
+
 
     .services-list li {
         margin-bottom: 15px;
